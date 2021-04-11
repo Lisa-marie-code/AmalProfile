@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Arms</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" />
 </head>
+
 <body>
     <div class="root">
         <div class="nav">
@@ -17,25 +21,49 @@
             </div> -->
             <ul>
                 <li>Home</li>
-                <li>Batch <i class="fas fa-caret-down"></i>
+                <li>
+                    Batch <i class="fas fa-caret-down"></i>
                     <ul>
                         <li>Batch 3</li>
                         <li>Batch 4</li>
                     </ul>
                 </li>
                 <li>Tracks</li>
-                
             </ul>
+            <div class="social_media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
         </div>
         <div class="container">
             <h1>Amalitech Training Academy</h1>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="img/2T5A3126.JPG" style="width: 100%" />
+                </div>
 
-            <!-- <div class="carousel">
-                <img src="img/2T5A3126.JPG" alt="">
-                <img src="img/2T5A3179.JPG" alt="">
-                <img src="img/2T5A3242.JPG" alt="">
-            </div> -->
+                <div class="mySlides fade">
+                    <img src="img/2T5A3179.JPG" style="width: 100%" />
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/2T5A3242.JPG" style="width: 100%" />
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br />
+
+            <div style="text-align: center" class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
         </div>
     </div>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
