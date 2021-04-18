@@ -75,7 +75,6 @@ li i {
 }
 .container {
   width: 100%;
-  margin-left: 200px;
   position: relative;
 }
 
@@ -89,12 +88,8 @@ li i {
 }
 
 .track{
-  margin-left:200px ;
-  height:322px;
   background-color: #bdb8d7;
-  position: absolute;
   width: 100%;
-  top: 720px;
 }
 
 .track li{
@@ -102,6 +97,7 @@ li i {
   border-top: 1px solid rgba(225, 225, 225, 0.05);
   padding: 2%;
 }
+
 .stats{
   height:500px;
   background-color: #f5f5f5;
