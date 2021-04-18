@@ -76,6 +76,7 @@ li i {
 .container {
   width: 100%;
   margin-left: 200px;
+  position: relative;
 }
 
 .container h1 {
@@ -86,3 +87,55 @@ li i {
   z-index: 2;
   font-size: 3rem;
 }
+
+.track{
+  margin-left:200px ;
+  height:322px;
+  background-color: #bdb8d7;
+  position: absolute;
+  width: 100%;
+  top: 720px;
+}
+
+.track li{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-top: 1px solid rgba(225, 225, 225, 0.05);
+  padding: 2%;
+}
+.stats{
+  height:500px;
+  background-color: #f5f5f5;
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 30px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin-left: 200px;
+}
+.active, .accordion:hover {
+  background-color: #F4A460
+}
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+.accordion:after {
+  content: '\02795'; 
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; 
+}
+
